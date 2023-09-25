@@ -20,14 +20,14 @@
 					<label>Direction</label>
 					<div class="select-container">
 						<select id="direction">
-							<option class="to top">Top</option>
-							<option class="to right top" selected>Right Top</option>
-							<option class="to right">Right</option>
-							<option class="to right bottom">Right Bottom</option>
-							<option class="to bottom">Bottom</option>
-							<option class="to left bottom">Left Bottom</option>
-							<option class="to left">Left</option>
-							<option class="to left top">Left Top</option>
+							<option value="to top">Top</option>
+							<option value="to right top" selected>Right Top</option>
+							<option value="to right">Right</option>
+							<option value="to right bottom">Right Bottom</option>
+							<option value="to bottom">Bottom</option>
+							<option value="to left bottom">Left Bottom</option>
+							<option value="to left">Left</option>
+							<option value="to left top">Left Top</option>
 						</select>
 					</div>
 				</div>
@@ -39,7 +39,9 @@
 					</div>
 				</div>
 			</div>
-			<textarea class="row" id="outputCode" disabled></textarea>
+			<textarea class="row" id="outputCode" disabled>
+background: linear-gradient(to top right, #a23af8, #4a22b9);</textarea
+			>
 			<div class="row buttons">
 				<button class="refresh-button">Refresh Colors</button>
 				<button class="copy-button">Copy Code</button>
