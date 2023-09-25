@@ -16,10 +16,10 @@
 		<div class="wrapper">
 			<div class="preview-container"></div>
 			<div class="row options">
-				<div class="column direction">
+				<div class="column">
 					<label>Direction</label>
 					<div class="select-container">
-						<select>
+						<select id="direction">
 							<option class="to top">Top</option>
 							<option class="to right top" selected>Right Top</option>
 							<option class="to right">Right</option>
@@ -34,8 +34,8 @@
 				<div class="column colors">
 					<label>Colors</label>
 					<div class="pickers">
-						<input type="color" />
-						<input type="color" />
+						<input type="color" value="#a23af8" />
+						<input type="color" value="#4a22b9" />
 					</div>
 				</div>
 			</div>
@@ -45,5 +45,7 @@
 				<button class="copy-button">Copy Code</button>
 			</div>
 		</div>
+
+		<script src="main.js"></script>
 	</body>
 </html>

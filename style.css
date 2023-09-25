@@ -29,7 +29,7 @@ body {
 .preview-container {
 	height: 225px;
 	border-radius: 10px;
-	background: #8d69f2;
+	background: linear-gradient(to top right, #a23af8, #4a22b9);
 }
 
 .row {
