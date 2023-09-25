@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Gradient Generator</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="preview-container"></div>
+			<div class="row options">
+				<div class="column direction">
+					<label>Direction</label>
+					<div class="select-container">
+						<select>
+							<option class="to top">Top</option>
+							<option class="to right top" selected>Right Top</option>
+							<option class="to right">Right</option>
+							<option class="to right bottom">Right Bottom</option>
+							<option class="to bottom">Bottom</option>
+							<option class="to left bottom">Left Bottom</option>
+							<option class="to left">Left</option>
+							<option class="to left top">Left Top</option>
+						</select>
+					</div>
+				</div>
+				<div class="column colors">
+					<label>Colors</label>
+					<div class="pickers">
+						<input type="color" />
+						<input type="color" />
+					</div>
+				</div>
+			</div>
+			<textarea class="row" id="outputCode" disabled></textarea>
+			<div class="row buttons">
+				<button class="refresh-button">Refresh Colors</button>
+				<button class="copy-button">Copy Code</button>
+			</div>
+		</div>
+	</body>
+</html>
